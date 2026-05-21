@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Monocraft", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+#about-me-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#welcome-text,
+#my-name,
+#profession {
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+h1, h2, p {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#welcome-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* NOME PRINCIPAL */
+#my-name {
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 0.95;
+    color: chartreuse;
+    margin-bottom: 20px;
+    margin-left: -2px;
+}
+
+/* PROFISSÃO */
+#occupation {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #b8ff7a;
+    max-width: 900px;
+}
